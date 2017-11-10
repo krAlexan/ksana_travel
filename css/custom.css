@@ -1,0 +1,41 @@
+.sb-description h3 {
+  font-size: 20px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  color: #000; }
+
+.nav-arrows {
+  display: none; }
+
+.nav-arrows {
+  position: relative;
+  top: -300px;
+  background: #000; }
+  .nav-arrows a {
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    top: 50%;
+    left: -12px;
+    z-index: 100; }
+  .nav-arrows:after {
+    font-family: "FontAwesome";
+    display: block;
+    content: "\f053";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    font-size: 30px;
+    color: #fff; }
+  .nav-arrows:before {
+    font-family: "FontAwesome";
+    display: block;
+    content: "\f054";
+    position: absolute;
+    top: 0;
+    right: -10px;
+    font-size: 30px;
+    color: #fff; }
+
+.nav-arrows a:first-child {
+  left: auto;
+  right: -12px; }
